@@ -1,68 +1,50 @@
 # Project Statement – Fitness Tracker (Java)
 
-## 1. Introduction
-This project is a console-based **Fitness Tracker** developed in Java. It allows users to record their daily fitness activities, such as exercise type, duration, calories burned, and date. The project focuses on applying core Java concepts learned during the course.
+## 1. Problem Statement
+In today’s busy lifestyle, many individuals engage in physical exercise but struggle to keep track of their daily fitness activities such as workout time, calories burned, and type of exercise. Without tracking, it becomes difficult to evaluate progress, maintain motivation, or build consistent fitness habits.
+
+This project aims to provide a simple, console-based Fitness Tracker system where users can log and review their workout activities in an organized manner. The application stores data in a text file so that users can view their fitness history any time.
 
 ---
 
-## 2. Objective
-The main objectives of this project are:
+## 2. Scope of the Project
+The Fitness Tracker covers the following scope:
 
-- To apply Object-Oriented Programming principles in a real program.
-- To store and retrieve user data using file handling.
-- To use multithreading to improve program interaction.
-- To manage user inputs securely with exception handling.
-- To develop a well-organized and modular Java application.
+- Logging fitness activities such as running, gym workouts, yoga, walking, sports, etc.
+- Recording details including:
+  - Activity name  
+  - Duration  
+  - Calories burned  
+  - Date
+- Storing the logged activities in a text file for permanent storage.
+- Displaying previously recorded fitness history.
+- Handling invalid inputs using exception handling.
+- Running motivational messages using multithreading.
 
----
-
-## 3. Concepts Used
-
-### ✔ Object-Oriented Programming
-The project uses classes like:
-- `Activity` (model class)
-- `ActivityManager`
-- `FileManager`
-- `MotivationThread`
-- `FitnessApp`
-
-OOP concepts used:
-- Encapsulation  
-- Multiple classes  
-- Methods and objects
+The application is designed as a medium-complexity learning project focused on applying Java concepts like OOP, arrays, file handling, exception handling, and multithreading.
 
 ---
 
-### ✔ Arrays
-Activities are stored in arrays internally before saving to file.
+## 3. Target Users
+The application is suitable for:
+
+- Students learning Java programming  
+- Individuals who want a basic, offline fitness tracking solution  
+- Beginners exploring OOP-based real-world applications  
+- Academic evaluation and project submission under VITyarthi
 
 ---
 
-### ✔ Exception Handling
-The program handles:
-- Invalid input
-- File errors
-- Custom error cases
+## 4. High-Level Features
 
----
+✔ Add new fitness activity  
+✔ View workout history  
+✔ Save activity data to a text file  
+✔ Load stored activities on restart  
+✔ Motivational multithreaded messages in the background  
+✔ Input validation and exception handling  
+✔ Structured OOP design using multiple classes
 
-### ✔ File Handling
-User activity data is saved and loaded from a `.txt` file to make the application persistent.
-
----
-
-### ✔ Multithreading
-A background thread is used to show motivational messages while the user uses the app.
-
----
-
-## 4. Output
-The user can:
-
-- Add new activities  
-- View history  
-- Save activities  
-- Retrieve them later
 
 ---
 
