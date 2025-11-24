@@ -1,76 +1,60 @@
 # Fitness Tracker – Java Project
 
-This is a **console-based Fitness Tracker application** developed using **Java and IntelliJ IDEA**.  
-The project applies key programming concepts such as:
+## 📁 Project Title
+Fitness Tracker – Console Based Application in Java
+
+---
+
+## 📝 Overview
+
+The Fitness Tracker is a Java-based console application that allows users to log and track their daily fitness activities such as exercise type, duration, calories burned, and date.
+
+The project applies core concepts of Java, including:
 
 - Object-Oriented Programming (OOP)
-- Classes and Objects
 - Arrays
-- File Handling (Text File Storage)
-- Multithreading (Motivational messages while user interacts)
+- Multithreading
 - Exception Handling
-- Encapsulation and Modular code design
+- File Handling for persistent storage
+
+This project is created as part of the **VITyarthi – Build Your Own Project** evaluation.
 
 ---
 
-## 🏋️‍♂️ Features
+## ⭐ Features
 
-✔ Add a new fitness activity (Jogging, Yoga, Gym, Sports, etc.)  
-✔ Store details like:
-- Activity name  
-- Duration  
-- Calories burned  
-- Date  
-
-✔ View all saved activities  
-✔ Save and load activity history from a `.txt` file  
-✔ Background motivational quotes using **Threads**  
-✔ Handles invalid input using **custom and built-in exceptions**
+✔ Add and store fitness activities  
+✔ Show history of logged workouts  
+✔ Save activity data to a text file  
+✔ Load saved history on application start  
+✔ Multithreading to display motivational messages in background  
+✔ Exception handling for invalid inputs  
+✔ Fully modular OOP-based code structure
 
 ---
 
-## 📂 Project Structure
+## 🧰 Technologies / Tools Used
 
-
----
-
-## 🛠 Tech Stack
-
-- **Language:** Java  
+- **Programming Language:** Java  
 - **IDE:** IntelliJ IDEA  
-- **Concepts Used:**  
-  OOP | Arrays | File Handling | Threads | Exceptions
+- **Version Control:** Git & GitHub  
+- **Core Programming Concepts Applied:**
+  - Classes & Objects  
+  - Arrays  
+  - File I/O  
+  - Threads  
+  - Exception Handling  
+  - Encapsulation & abstraction
 
 ---
 
-## 🚀 How to Run
+## 🚀 Steps to Install & Run the Project
 
-1. Clone the repository
-2. Open in IntelliJ IDEA
-3. Run `FitnessApp.java`
-4. Follow the on-screen instructions
-
----
-
-## 📁 Data Storage
-
-Activity history is saved in a plain text file so that data is not lost after closing the program.
-
----
-
-## 📜 Author
-
-**Abhinav Sharma**
-
----
-
-## ⭐ Learning Outcome
-
-This project helped in gaining practical experience with:
-
-- Java OOP fundamentals  
-- Multithreading  
-- Exception handling in real use cases  
-- Saving data without databases  
-- Clean modular programming
-
+### 1️⃣ Clone the Repository
+```bash
+git clone <your-github-repo-link>
+👤 Author
+Name: Abhinav Sharma
+Program: M.Tech Integrated – Artificial Intelligence
+College: Vellore Institute of Technology (VIT)
+Year: 2025
